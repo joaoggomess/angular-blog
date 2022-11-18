@@ -1,0 +1,8 @@
+.card-grid {
+    display: grid;
+    grid-template: repeat(1, 1fr)/ repeat(2, 1fr);
+}
+
+#big-card {
+    grid-row: 1 / span 3;
+}

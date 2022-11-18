@@ -1,0 +1,30 @@
+* {
+    color:white;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#header-left {
+    display:flex;
+    flex-direction:row;
+}
+
+#header-left img {
+    align-self: center;
+}
+
+#header-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    list-style-type: none;
+    margin: .5rem .2rem;
+}
+
+#header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

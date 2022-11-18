@@ -1,0 +1,17 @@
+.card-grid {
+    display: grid;
+    grid-template: repeat(3, 1fr)/ repeat(2, 1fr);
+    column-gap: 2px;
+    justify-items: center;
+    margin: .5rem 4rem;
+}
+
+#big-card {
+    grid-row: 1 / span 3;
+}
+
+.small-card {
+    display:flex;
+    align-items: center;
+}
+

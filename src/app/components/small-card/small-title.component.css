@@ -1,0 +1,26 @@
+p {
+    color: white;
+}
+
+.small-card {
+    display: flex;
+    flex-direction:row;
+    color: white;
+    align-items: center;
+    margin-top: .8rem;
+}
+
+.small-card h1 {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.small-photo {
+    max-width: fit-content;
+    max-height: fit-content
+}
+
+hr{
+    color: grey;
+    width: 100%;
+}
