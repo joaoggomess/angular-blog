@@ -1,22 +1,18 @@
 <div class="container big-display">
     <div class="big-card photo">
-        <img src="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg"
+        <img src={{obj.photo}}
             height="200px"
-            width="300px">
+            width="350px">
     </div>
     <div class="big-card title">
         <h1>
-            A noticia é quentinha da hora
+            {{obj.title}}
         </h1>
     </div>
 
     <div class="big-card description">
-        <p> A notícia foi esquentada a forno lento
-            preparada durante as horas mais quentes 
-            do dia, o gás está caro e a luz energética
-            do sol é sempre de graça. Queria que fosse
-            isso que estivessem dizendo quando falam que
-            o sol nasce sempre para todos. 
+        <p> 
+            {{obj.description}}
         </p>
     </div>
 </div>

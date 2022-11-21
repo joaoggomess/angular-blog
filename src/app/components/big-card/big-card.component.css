@@ -16,6 +16,8 @@ h1 {
 .photo {
     max-width: fit-content;
     max-height: fit-content;
+    margin: auto;
+    padding: auto;
 }
 
 .description p {
