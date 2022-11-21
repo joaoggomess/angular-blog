@@ -1,3 +1,7 @@
+Project created using Angular framework, based on a dribbble design. 
+
+This project was done during the NFF Bootcamp on DIO. 
+
 # AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
